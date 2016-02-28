@@ -13,14 +13,16 @@
 
 ## Columns
 
-<dl>
-  <dt>id</dt>
-  <dd>Census-assigned [GeoID](https://www.census.gov/geo/reference/geoidentifiers.html) of the Place</dd>
-  <dt>name</dt>
-  <dd>Commonly-accepted name of the Place. (Zipcodes are represented as strings to maintain initial zeroes.)</dd>
-  <dt>type</dt>
-  <dd>The Place's type. Types include <code>borough</code>, <code>cdp</code>, <code>city</code>, <code>county</code>, <code>metro</code>, <code>micro</code>, <code>state</code>, <code>town</code>, <code>village</code>, and <code>zcta</code>.</dd>
-</dl>
+
+### id
+Census-assigned [`GeoID`](https://www.census.gov/geo/reference/geoidentifiers.html) of the Place. ZCTA IDs have been assigned `777{5-digit zipcode}` to avoid conflict with other 5-character GeoIDs.
+
+### name
+Commonly-accepted name of the Place. (Zipcodes are represented as strings to maintain initial zeroes.)
+
+### type
+The Place's type. Types include `borough`, `cdp`, `city`, `county`, `metro`, `micro`, `state`, `town`, `village`, and `zcta`.
+
 
 ## Download
 
