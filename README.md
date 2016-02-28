@@ -2,6 +2,8 @@
 
 [Faraday](http://faraday.io)'s gazetter
 
+[Blog post](http://blog.faraday.io/faraday-places-our-simple-gazetteer/)
+
 ## Sample
 
 | id | name | type |
